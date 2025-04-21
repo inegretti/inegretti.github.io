@@ -11426,14 +11426,14 @@ p.lead {
         z-index: 1000;
       }
   
-      .whatsapp-btn:hover {
+.whatsapp-btn:hover {
         transform: scale(1.1);
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
         background-color: #1ebe5d;
       }
   
-      /* Tooltip opcional */
-      .whatsapp-btn::after {
+/* Tooltip opcional */
+.whatsapp-btn::after {
         content: "WhatsApp";
         position: absolute;
         right: 70px;
@@ -11448,7 +11448,7 @@ p.lead {
         font-size: 14px;
       }
   
-      .whatsapp-btn:hover::after {
+.whatsapp-btn:hover::after {
         opacity: 1;
       }
 
